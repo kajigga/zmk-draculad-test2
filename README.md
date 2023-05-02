@@ -2,4 +2,4 @@
 
 A ZMK firmware for MangoIV/DraculaD
 
-Updated for ZMK 3.0
+Updated for ZMK 3.0, but does not work yet 🙃
