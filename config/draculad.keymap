@@ -45,6 +45,53 @@
                         bindings = <&kp>, <&kp>;
                 };
         };
+        /* KEY POSITIONS
+        ╭────────────────────╮ ╭────────────────────╮
+        │  0   1   2   3   4 │ │  5   6   7   8   9 │
+        │ 10  11  12  13  14 │ │ 15  16  17  18  19 │
+        │ 20  21  22  23  24 │ │ 25  26  27  28  29 │
+        ╰───────╮         30 │ │ 31       ╭─────────╯
+                │ 32  33  34 │ │ 35 36 37 │
+                ╰────────────╯ ╰──────────╯
+        */
+        combos {
+                compatible = "zmk,combos";
+                combo_esc {
+                        timeout-ms = <50>;
+                        key-positions = <0 1>;
+                        bindings = <&kp ESC>;
+                };
+                combo_capslock {
+                        timeout-ms = <50>;
+                        key-positions = <10 11>;
+                        bindings = <&kp CAPSLOCK>;
+                };
+                combo_enter {
+                        timeout-ms = <50>;
+                        key-positions = <18 19>;
+                        bindings = <&kp ENTER>;
+                };
+                combo_copy {
+                        timeout-ms = <50>;
+                        key-positions = <13 23>;
+                        bindings = <&kp LG(C)>;
+                };
+                combo_paste {
+                        timeout-ms = <50>;
+                        key-positions = <16 26>;
+                        bindings = <&kp LG(V)>;
+                };
+                combo_parens_left {
+                        timeout-ms = <50>;
+                        key-positions = <3 13>;
+                        bindings = <&kp LEFT_PARENTHESIS>;
+                };
+                combo_parens_right {
+                        timeout-ms = <50>;
+                        key-positions = <6 16>;
+                        bindings = <&kp RIGHT_PARENTHESIS>;
+                };
+        };
         keymap {
                 compatible = "zmk,keymap";
                 default {
