@@ -16,8 +16,8 @@
 #define ADJUST 4
 
 /{
-        behaviors { 
-                hm: homerow_mods {     
+        behaviors {
+                hm: homerow_mods {
                         compatible = "zmk,behavior-hold-tap";
                         label = "HOMEROW_MODS";
                         #binding-cells = <2>;
@@ -26,7 +26,7 @@
                         flavor = "tap-preferred";
                         bindings = <&kp>, <&kp>;
                 };
-                hplt: hold_preferred-lt {     
+                hplt: hold_preferred-lt {
                         compatible = "zmk,behavior-hold-tap";
                         label = "HOLD_PREFERRED_LT";
                         #binding-cells = <2>;
@@ -35,7 +35,7 @@
                         flavor = "hold-preferred";
                         bindings = <&mo>, <&kp>;
                 };
-                hms: homerow_mod_shift {     
+                hms: homerow_mod_shift {
                         compatible = "zmk,behavior-hold-tap";
                         label = "HOMEROW_MOD_SHIFT";
                         #binding-cells = <2>;
@@ -103,10 +103,10 @@
                         */
                         // COLEMAK default
                         bindings = <
-                                &kp Q           &kp W           &kp F           &kp P           &kp G                                                           &kp J   &kp L           &kp U           &kp Y           &kp SEMI
-                                &hm LCTRL A     &hm LALT R      &hm LGUI S      &hms LSHFT T    &kp D                                                           &kp H   &hms RSHFT N    &hm RGUI E      &hm RALT I      &hm RCTRL O
-                                &kp Z           &kp X           &kp C           &kp V           &kp B           &kp C_PLAY_PAUSE        &kp C_PLAY_PAUSE        &kp K   &kp M           &kp COMMA       &kp DOT         &kp FSLH
-                                                                &kp TAB         &kp TAB         &kp BSPC                                                        &kp SPC &kp TAB         &kp TAB
+                                &kp Q           &kp W           &kp F           &kp P           &kp B                                                           &kp J   &kp L           &kp U           &kp Y           &kp SEMI
+                                &hm LCTRL A     &hm LALT R      &hm LGUI S      &hms LSHFT T    &kp G                                                           &kp M   &hms RSHFT N    &hm RGUI E      &hm RALT I      &hm RCTRL O
+                                &kp Z           &kp X           &kp C           &kp D           &kp V           &kp C_PLAY_PAUSE        &kp C_PLAY_PAUSE        &kp K   &kp H           &kp COMMA       &kp DOT         &kp FSLH
+                                                                &kp TAB         &kp TAB         &kp SPC                                                         &kp ENTER &kp TAB         &kp TAB
                         >;
                         // QWERTY, if that's how you roll
                         // bindings = <
