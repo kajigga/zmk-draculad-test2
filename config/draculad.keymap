@@ -92,7 +92,7 @@
                 combo_backspace {
                         timeout-ms = <50>;
                         key-positions = <8 9>;
-                        bindings = <&kp BAC>;
+                        bindings = <&kp BACKSPACE>;
                 };
         };
         keymap { compatible = "zmk,keymap";
