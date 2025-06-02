@@ -105,10 +105,10 @@
                         */
                         // COLEMAK default
                         bindings = <
-                                &kp Q           &kp W           &kp F           &kp P           &kp B                                                           &kp J   &kp L           &kp U           &kp Y           &kp SEMI
-                                &hm LCTRL A     &hm LALT R      &hm LGUI S      &hms LSHFT T    &kp G                                                           &kp M   &hms RSHFT N    &hm RGUI E      &hm RALT I      &hm RCTRL O
+                                &kp Q           &kp W           &kp F           &kp P           &kp B                                     &kp J   &kp L           &kp U           &kp Y           &kp SEMI
+                                &hm LCTRL A     &hm LALT R      &hm LGUI S      &hms LSHFT T    &kp G                                     &kp M   &hms RSHFT N    &hm RGUI E      &hm RALT I      &hm RCTRL O
                                 &kp Z           &kp X           &kp C           &kp D           &kp V           &kp B        &kp B        &kp K   &kp H           &kp COMMA       &kp DOT         &kp FSLH
-                                                                &kp TAB &kp TAB &kp SPC                                         &none   &lt 1 ENTER         &kp lt 2 SPC
+                                                                &kp TAB         &kp TAB         &kp SPC                                   &none   &lt 1 ENTER     &lt 2 SPC
                         >;
                         // QWERTY, if that's how you roll
                         // bindings = <
