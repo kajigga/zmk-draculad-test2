@@ -114,9 +114,9 @@
                         */
                         // COLEMAK default
                         bindings = <
-                                &kp Q    &kp W &kp F &kp P &kp B                             &kp J   &kp L          &kp U      &kp Y           &kp SEMI
-                                &rpi LCTRL A    &rpi LALT R &rpi LGUI S &rpi LSHFT T &kp G                             &kp M   &hms RSHFT N   &hm RGUI E &hm RALT I      &hm RCTRL O
-                                &kp Z    &kp X &kp C &kp D &kp V           &kp B     &kp B   &kp K   &kp H      &mt MINUS COMMA &mt EXCL DOT   &mt FSLH PIPE
+                                &kp Q           &kp W       &kp F       &kp P           &kp B                       &kp J   &kp L      &kp U           &kp Y          &kp SEMI
+                                &rpi LCTRL A    &rpi LALT R &rpi LGUI S &rpi LSHFT T    &kp G                       &kp M   &hms RSHFT N   &hm RGUI E &hm RALT I      &hm RCTRL O
+                                &kp Z           &kp X       &kp C       &kp D           &kp V      &kp B     &kp B  &kp K   &kp H      &mt MINUS COMMA &mt EXCL DOT   &mt PIPE FSLH
                                             &kp TAB         &lt SYM TAB         &kp SPC                                   &none   &lt NAV ENTER   &lt SYM SPC
                         >;
                         // QWERTY, if that's how you roll
