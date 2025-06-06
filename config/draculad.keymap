@@ -16,6 +16,12 @@
 
 /{
         behaviors {
+                td0: tap_dance_0 {
+                    compatible = "zmk,behavior-tap-dance";
+                    #binding-cells = <0>;
+                    tapping-term-ms = <200>;
+                    bindings = <&kp G>, <&kp B>, <&kp N3>;
+                };
                 hm: homerow_mods {
                         compatible = "zmk,behavior-hold-tap";
                         label = "HOMEROW_MODS";
