@@ -158,7 +158,7 @@
                         // numbers default
                         bindings = <
                                 &trans &trans &trans &trans &trans                      &trans &trans       &trans      &trans &trans
-                                &trans &trans &trans &trans &trans                      &trans &C_VOL_UP    &C_VOL_DOWN &trans &trans
+                                &trans &trans &trans &trans &trans                      &trans &C_VOL_UP    &C_VOL_DN &trans &trans
                                 &trans &trans &trans &trans &trans                      &trans &trans       &trans      &trans &trans
                                                                 &trans     &trans &trans             &trans &trans    &trans
                         >;
