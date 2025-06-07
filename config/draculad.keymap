@@ -110,6 +110,11 @@
                         key-positions = <8 9>;
                         bindings = <&kp BACKSPACE>;
                 };
+                combo_letter_b {
+                        timeout-ms = <50>;
+                        key-positions = <3 4>;
+                        bindings = <&kp B>;
+                };
         };
         keymap { compatible = "zmk,keymap";
                 default {
